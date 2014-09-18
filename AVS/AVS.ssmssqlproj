@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AVS">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="THIN-LAPTOP:thin-laptop\lorenzol">
+          <Created>2014-06-01T08:33:55.0478066-04:00</Created>
+          <Type>SQL</Type>
+          <Server>THIN-LAPTOP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>avs</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Create View test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create View test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create View testoffer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create View testoffer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create View train.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create View train.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create View trainoffer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create View trainoffer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_bra.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_bra.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_bra_2m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_bra_2m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_bra_3m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_bra_3m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_bra_30.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_bra_30.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_cat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_cat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_cat_2m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_cat_2m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_cat_30.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_cat_30.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_ccb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_ccb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_ccb_2m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_ccb_2m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_ccb_30.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_ccb_30.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_com.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_com.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_com_2m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_com_2m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_com_30.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_com_30.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_tot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_tot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_tot_2m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_tot_2m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="features_tot_3m.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>features_tot_3m.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tot_spe_trend.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THIN-LAPTOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>THIN-LAPTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>tot_spe_trend.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="avs feature ideas.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>avs feature ideas.txt</FullPath>
+        </FileNode>
+        <FileNode Name="features ideas.docx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>features ideas.docx</FullPath>
+        </FileNode>
+        <FileNode Name="Project Notes.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Project Notes.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

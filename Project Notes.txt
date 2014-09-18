@@ -1,0 +1,27 @@
+todo
+****
+
+how to deal with negatives
+
+add average amount, like avg amunt spent etc....
+
+
+I tried R package glmnet(alpha = 0, lambda = 2^17, family = "binomial") on the Triskelion's features except offer_quantity and got 0.59565. 
+
+The reason for the difference between Upul's score and mine may be the parameter estimation method employed by glmnet. 
+
+See Regularization Paths for Generalized Linear Models via Coordinate Descent in detail.
+
+Glmnet model can be improved by Bagging. The LB score of bagged glmnet using the same features and paramters was 0.60427.
+
+
+models
+try combining the glmnet model with the positives of the glm model.
+
+
+
+New feature
+===========
+
+spending pattern is it increasing or decreasing?
+could be a good indicator of likelyhood to spend?> 

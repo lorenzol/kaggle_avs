@@ -1,0 +1,25 @@
+
+Feature1
+========
+
+These include features for the whole transaction file by id, chain.
+
+
+
+
+Features to do
+==============
+
+offer information.
+
+by category:
+number of previous purchases by for category
+total amount of previous purchases for this category
+
+
+
+
+Misc:
+=====
+
+how to deal with returns (negatives)?

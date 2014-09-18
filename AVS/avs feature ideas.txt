@@ -1,0 +1,58 @@
+Here is some code and ideas to get a score of around 0.59347.
+
+Data reduction
+
+Check out the data reduction thread to understand what this is about. For this benchmark we create the category and company union.
+
+Feature engineering
+
+
+We will generate the following features:
+
+has_bought_company: the number of times a shopper has bought from the company on offer
+
+has_bought_company_a: the total amount the shopper has bought from the company on offer
+
+has_bought_company_q: the quantity of items bought from the company on offer.
+
+has_bought_company_30: the number of times a shopper has bought from the company on offer in the 30 days before the date the coupon was offered.
+has_bought_company_60: the number of times a shopper has bought from the company on offer in the 60 days before the date the coupon was offered.
+...
+has_bought_company_180: 180 days before
+
+has_never_bought_company: a negative feature for when the shopper has never bought from the company on offer before.
+These same features for:
+
+has_bought_category: the number of times a shopper has bought from the category on offer
+has_bought_brand: the number of times a shopper has bought from the brand on offer
+Combinations of these:
+
+has_bought_company_brand_category: if this feature is present the shopper has bought from the company, brand, and category on offer.
+has_never_bought_company_brand: negative feature for the combination of brand and company purchase history.
+Offer-related:
+
+offer_value: The value of the coupon offer
+offer_quantity: The number of products to redeem with the coupon
+Total shopper spend:
+
+total_shopper_spend: We take the total amount spend by the shopper in the reduced dataset.
+Can you name some other possibly interesting features to generate?
+
+
+Improvements
+************
+If you use this code or feature ideas to improve the score of 0.59347.
+I'd really appreciate it if you let me know these improvements. 
+It's very possible that another algorithm may do better with these exact features.
+
+
+Code & Tutorial
+
+For latest code see the Github repo: https://github.com/MLWave/kaggle_acquire-valued-shoppers-challenge, 
+for the tutorial/description read: http://mlwave.com/predicting-repeat-buyers-vowpal-wabbit/
+
+All of this runs in about 15 minutes for me, from raw data to submission. Takes less than 1GB of memory.
+
+Todo
+
+Generate more features. Set up local validation. Tweak algorithms. Try other algorithms than quantile regression (sklearn has plenty).
